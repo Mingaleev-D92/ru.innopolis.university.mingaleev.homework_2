@@ -6,8 +6,8 @@ public class task_2 {
         double ndfl = 0.13;
         System.out.println("Введите Вашу зарплату:");
         Scanner in = new Scanner(System.in);
-        salary = (int) in.nextDouble();
-        double total = (double) (salary*ndfl);
+        salary = in.nextInt();
+        double total = (salary*ndfl);
         double total1 = salary - total;
         System.out.println("Зарплата на руки (c учетов 13%(НДФЛ)): " + total1+"руб.");
 

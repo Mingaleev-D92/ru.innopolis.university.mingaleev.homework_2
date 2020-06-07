@@ -6,8 +6,8 @@ public class task_3 {
         int seconds = 3600;
         System.out.println("Введите количество секунд :");
         Scanner in = new Scanner(System.in);
-        clock = (int) in.nextDouble();
-        int total = (int) (clock/seconds);
+        clock = in.nextInt();
+        int total = (clock/seconds);
         System.out.println("В часах:" + total);
 
     }
